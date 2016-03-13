@@ -1,5 +1,5 @@
 {
-  "name": "load-testing-experiments",
+  "name": "benchmark-experiments",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "express": "^4.13.4",
+    "multer": "^1.1.0",
+    "response-time": "^2.3.1",
+    "siege": "^0.2.0"
+  }
 }
